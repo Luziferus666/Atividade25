@@ -1,0 +1,8 @@
+aprovados = 0
+
+for _ in range(5):
+    nota = float(input("Digite a nota do aluno: "))
+    if nota >= 7:
+        aprovados += 1
+
+print(f"Número de alunos aprovados: {aprovados}")
